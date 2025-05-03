@@ -1,0 +1,33 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+env/
+venv/
+ENV/
+.venv/
+
+# 数据库文件（如有）
+*.sqlite3
+*.db
+
+# 本地环境变量
+.env
+
+# IDE 配置
+.vscode/
+.idea/
+
+# Alembic/Flask-Migrate 缓存
+migrations/__pycache__/
+
+# 日志和临时文件
+*.log
+*.bak
+*.swp
+.DS_Store
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/ 
